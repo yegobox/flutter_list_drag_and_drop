@@ -2,7 +2,7 @@ name: example_drag
 description: A new Flutter example of the list drag&amp; drop.
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.16.0 <3.0.0"
 
 dependencies:
   flutter:
