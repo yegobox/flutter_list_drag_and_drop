@@ -3,55 +3,55 @@
   "packages": [
     {
       "name": "characters",
-      "rootUri": "file:///C:/Users/Sone/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.2.0",
+      "rootUri": "file:///C:/Users/RichardMuragijimana/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/characters-1.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "collection",
-      "rootUri": "file:///C:/Users/Sone/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0",
+      "rootUri": "file:///C:/Users/RichardMuragijimana/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/collection-1.15.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "cupertino_icons",
-      "rootUri": "file:///C:/Users/Sone/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4",
+      "rootUri": "file:///C:/Users/RichardMuragijimana/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter",
-      "rootUri": "file:///C:/Users/Sone/Documents/flutter/packages/flutter",
+      "rootUri": "file:///C:/Users/RichardMuragijimana/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///C:/Users/Sone/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/material_color_utilities-0.1.3",
+      "rootUri": "file:///C:/Users/RichardMuragijimana/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/material_color_utilities-0.1.3",
       "packageUri": "lib/",
       "languageVersion": "2.13"
     },
     {
       "name": "meta",
-      "rootUri": "file:///C:/Users/Sone/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.7.0",
+      "rootUri": "file:///C:/Users/RichardMuragijimana/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/meta-1.7.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///C:/Users/Sone/Documents/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///C:/Users/RichardMuragijimana/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "typed_data",
-      "rootUri": "file:///C:/Users/Sone/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0",
+      "rootUri": "file:///C:/Users/RichardMuragijimana/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/typed_data-1.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///C:/Users/Sone/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.1",
+      "rootUri": "file:///C:/Users/RichardMuragijimana/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/vector_math-2.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
@@ -62,7 +62,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-03-23T21:58:28.656383Z",
+  "generated": "2022-03-24T19:13:23.862175Z",
   "generator": "melos",
   "generatorVersion": "1.5.2"
 }
