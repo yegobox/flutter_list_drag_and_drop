@@ -99,9 +99,8 @@ class MyDraggable<T> extends StatefulWidget {
       this.onMyDraggableCanceled,
       this.onDragCompleted,
       this.onMove})
-      : assert(child != null),
-        assert(feedback != null),
-        assert(maxSimultaneousDrags == null || maxSimultaneousDrags >= 0),
+      : assert(feedback != null),
+        assert(maxSimultaneousDrags >= 0),
         super(key: key);
 
   /// The data that will be dropped by this MyDraggable.
@@ -260,7 +259,7 @@ class LongPressMyDraggable<T> extends MyDraggable<T> {
     return new DelayedMultiDragGestureRecognizer(delay: delay)
       ..onStart = (Offset position) {
         final Drag result = onStart(position)!;
-        if (result != null) HapticFeedback.vibrate();
+        HapticFeedback.vibrate();
         return result;
       };
   }
@@ -300,14 +299,12 @@ class MyDraggableState<T> extends State<MyDraggable<T>> {
   }
 
   void _routePointer(PointerEvent event) {
-    if (widget.maxSimultaneousDrags != null &&
-        _activeCount >= widget.maxSimultaneousDrags) return;
+    if (_activeCount >= widget.maxSimultaneousDrags) return;
     _recognizer?.addPointer(event as PointerDownEvent);
   }
 
   DragAvatar<T>? _startDrag(Offset position) {
-    if (widget.maxSimultaneousDrags != null &&
-        _activeCount >= widget.maxSimultaneousDrags) return null;
+    if (_activeCount >= widget.maxSimultaneousDrags) return null;
     Offset dragStartPoint;
     switch (widget.dragAnchor) {
       case DragAnchor.child:
@@ -352,8 +349,7 @@ class MyDraggableState<T> extends State<MyDraggable<T>> {
   @override
   Widget build(BuildContext context) {
     assert(Overlay.of(context, debugRequiredFor: widget) != null);
-    final bool canDrag = widget.maxSimultaneousDrags == null ||
-        _activeCount < widget.maxSimultaneousDrags;
+    final bool canDrag = _activeCount < widget.maxSimultaneousDrags;
     final bool showChild =
         _activeCount == 0 || widget.childWhenDragging == null;
     return new Listener(
@@ -455,7 +451,6 @@ class _MyDragTargetState<T> extends State<MyDragTarget<T>> {
 
   @override
   Widget build(BuildContext context) {
-    assert(widget.builder != null);
     return new MetaData(
         metaData: this,
         behavior: HitTestBehavior.translucent,
@@ -481,9 +476,7 @@ class DragAvatar<T> extends Drag {
     this.feedbackOffset: Offset.zero,
     required this.onDragEnd,
     this.onMove,
-  })  : assert(overlayState != null),
-        assert(dragStartPoint != null),
-        assert(feedbackOffset != null) {
+  }) : assert(dragStartPoint != null) {
     _entry = new OverlayEntry(builder: _build);
     if (_entry != null) overlayState.insert(_entry!);
     _position = initialPosition;
@@ -601,8 +594,7 @@ class DragAvatar<T> extends Drag {
     _entry?.remove();
     _entry = null;
     // TODO(ianh): consider passing _entry as well so the client can perform an animation.
-    if (onDragEnd != null)
-      onDragEnd(velocity ?? Velocity.zero, _lastOffset, wasAccepted);
+    onDragEnd(velocity ?? Velocity.zero, _lastOffset, wasAccepted);
   }
 
   Widget _build(BuildContext context) {
