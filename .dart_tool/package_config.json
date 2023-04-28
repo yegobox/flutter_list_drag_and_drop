@@ -71,10 +71,10 @@
       "name": "flutter_list_drag_and_drop",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-04-27T17:42:51.638940Z",
+  "generated": "2023-04-28T00:30:57.038884Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }
