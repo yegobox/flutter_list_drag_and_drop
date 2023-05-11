@@ -460,6 +460,7 @@ class _MyDragTargetState<T> extends State<MyDragTarget<T>> {
 }
 
 enum _DragEndKind { dropped, canceled }
+
 typedef void _OnDragEnd(Velocity velocity, Offset offset, bool wasAccepted);
 
 // The lifetime of this object is a little dubious right now. Specifically, it
