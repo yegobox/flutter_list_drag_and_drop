@@ -39,7 +39,7 @@
     },
     {
       "name": "lints",
-      "rootUri": "file:///C:/Users/SPENN/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.1.0",
+      "rootUri": "file:///C:/Users/SPENN/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -74,7 +74,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-06-08T06:59:26.272591Z",
+  "generated": "2023-06-10T18:02:27.075340Z",
   "generator": "pub",
   "generatorVersion": "3.0.2"
 }
