@@ -15,9 +15,9 @@
     },
     {
       "name": "cupertino_icons",
-      "rootUri": "file:///C:/Users/SPENN/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.5",
+      "rootUri": "file:///C:/Users/SPENN/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.6",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.19"
     },
     {
       "name": "flutter",
@@ -27,9 +27,9 @@
     },
     {
       "name": "flutter_lints",
-      "rootUri": "file:///C:/Users/SPENN/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-2.0.2",
+      "rootUri": "file:///C:/Users/SPENN/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-2.0.3",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "2.19"
     },
     {
       "name": "lints",
@@ -74,7 +74,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-12-25T06:29:11.062568Z",
+  "generated": "2023-12-25T10:02:54.601580Z",
   "generator": "pub",
   "generatorVersion": "3.2.3"
 }
