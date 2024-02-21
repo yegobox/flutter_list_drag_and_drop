@@ -39,13 +39,13 @@
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///C:/Users/SPENN/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.8.0",
+      "rootUri": "file:///C:/Users/SPENN/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.5.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "meta",
-      "rootUri": "file:///C:/Users/SPENN/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.11.0",
+      "rootUri": "file:///C:/Users/SPENN/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -62,13 +62,19 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "web",
+      "rootUri": "file:///C:/Users/SPENN/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "flutter_list_drag_and_drop",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-02-18T18:04:21.970616Z",
-  "generator": "pub",
-  "generatorVersion": "3.3.0"
+  "generated": "2024-02-21T06:47:28.577260Z",
+  "generator": "melos",
+  "generatorVersion": "2.9.0"
 }
